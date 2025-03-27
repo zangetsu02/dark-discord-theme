@@ -1,0 +1,58 @@
+{
+  "publisher": "zangetsu002",
+  "name": "zangetsu002-dark-discord-theme",
+  "displayName": "Dark Discord Theme",
+  "version": "0.0.1",
+  "description": "A theme for VS Code inspired by Discord's new dark theme.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zangetsu02/dark-discord-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/zangetsu02/dark-discord-theme/issues"
+  },
+  "keywords": [
+    "theme",
+    "discord",
+    "dark"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "exports": {
+    "./*": "./*"
+  },
+  "files": [
+    "LICENSE.md",
+    "themes/*"
+  ],
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Discord dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/discord-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "release": "vsce publish --no-dependencies",
+    "pack": "vsce pack --no-dependencies"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.2",
+    "@types/node": "^22.3.0",
+    "@vscode/vsce": "^2.32.0",
+    "bumpp": "^9.5.1",
+    "color": "^4.2.3",
+    "eslint": "^9.9.0",
+    "esno": "^4.7.0"
+  },
+  "preview": true
+}
