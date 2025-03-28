@@ -1,6 +1,6 @@
 {
   "publisher": "zangetsu002",
-  "name": "zangetsu002-dark-discord-theme",
+  "name": "dark-discord-theme",
   "displayName": "Dark Discord Theme",
   "version": "0.0.1",
   "description": "A theme for VS Code inspired by Discord's new dark theme.",
@@ -40,6 +40,9 @@
     ]
   },
   "scripts": {
+    "build": "esno scripts/index.ts",
+    "dev": "esno watch scripts/index.ts",
+    "vscode:prepublish": "npm run build",
     "lint": "eslint .",
     "prepublishOnly": "npm run build",
     "release": "vsce publish --no-dependencies",
@@ -47,12 +50,17 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.25.2",
+    "@types/color": "^3.0.6",
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.3.0",
     "@vscode/vsce": "^2.32.0",
     "bumpp": "^9.5.1",
     "color": "^4.2.3",
     "eslint": "^9.9.0",
-    "esno": "^4.7.0"
+    "esno": "^4.7.0",
+    "fs-extra": "^11.2.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
   },
   "preview": true
 }
