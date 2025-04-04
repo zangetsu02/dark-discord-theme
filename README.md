@@ -1,7 +1,7 @@
 <h1 align="center">Dark Discord Theme</h1>
 
-<p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/antfu.theme-vitesse.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<p align="center">zangetsu002.dark-discord-theme
+<a href="https://marketplace.visualstudio.com/items?itemName=zangetsu002.dark-discord-theme" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/zangetsu002.dark-discord-theme.svg?color=4d9375&amp;label=Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 </p>
 
 <p align="center">
