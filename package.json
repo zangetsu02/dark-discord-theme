@@ -26,7 +26,8 @@
   },
   "files": [
     "LICENSE.md",
-    "themes/*"
+    "themes/*",
+    "assets/*"
   ],
   "engines": {
     "vscode": "^1.43.0"
