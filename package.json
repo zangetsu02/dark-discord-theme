@@ -3,7 +3,7 @@
   "name": "dark-discord-theme",
   "displayName": "Dark Discord Theme",
   "version": "1.0.0",
-  "icon": "assets/logo.png",
+  "icon": "./assets/logo.png",
   "description": "A theme for VS Code inspired by Discord's new dark theme.",
   "license": "MIT",
   "repository": {
@@ -37,6 +37,11 @@
         "label": "Discord dark",
         "uiTheme": "vs-dark",
         "path": "./themes/discord-dark.json"
+      },
+      {
+        "label": "Discord Onyx",
+        "uiTheme": "vs-dark",
+        "path": "./themes/discord-onyx.json"
       }
     ]
   },
